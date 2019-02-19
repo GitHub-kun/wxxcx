@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/classd/classd",
+    "pages/shopCar/shopCar",
+    "pages/mine/mine",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#302f41",
+    "navigationBarTextStyle":"white",
+    "navigationBarTitleText": "商城",
+    "navigationStyle":"default",
+    "backgroundTextStyle":"light",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "custom": false,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "img/shopping01.png",
+        "selectedIconPath":"img/shopping02.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/classd/classd",
+        "iconPath": "img/classd01.png",
+        "selectedIconPath": "img/classd02.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/shopCar/shopCar",
+        "iconPath": "img/shopcar01.png",
+        "selectedIconPath": "img/shopcar02.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "img/mine01.png",
+        "selectedIconPath": "img/mine02.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

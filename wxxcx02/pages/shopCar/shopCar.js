@@ -1,4 +1,4 @@
-// pages/index/index02.js
+// pages/shopCar/shopCar.js
 Page({
 
   /**
